@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/fondo.gif);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    /* Usa flexbox para centrar el contenido verticalmente */
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: start
+}
+
+.logo {
+    width: 100%;
+    min-height: 40svh;
+    margin: 10%;
+}
+
+h1 {
+    font-family: 'Fredoka One';
+    font-size: 200px;
+    background: linear-gradient(45deg, #cc2af8, #4399f4);
+    background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    color: #4e3772;
+}
+
+.saludo {
+    font-size: 50px;
+    color: #8230fd;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* EMPIEZA ESTILOS INPUT PARA index.html */
+input {
+    font-family: pixelify sans, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    background-color: #ffe6009d;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    border:5px solid black;
+    /* Elimina cualquier borde predeterminado */
+    box-shadow:inset 0 0 10px #000000;
+}
+
+input::placeholder {
+    color: black;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* BUTTONS  PARA index.html*/
+.btn {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    cursor: pointer;
+    text-shadow: orange 0 0 10px;
+    transform: translateY(-1.6px);
+    transition: transform 150ms;
+}
+
+/* TERMINA BUTTOMS PARA index.html */
+/* PARA index.html Estilo */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* TERMINA ESTILOS PARA INDEX.HTML */
+
+/* EMPIEZA ESTILOS PARA CATEGORIA.HTML */
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.boton {
+    border-radius: 15px;
+    border: 1px solid none;
+    background-color: #d6a7e6;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 25px 25px;
+    margin: 15px auto;
+    width: 40%
+}
+
+.boton:hover {
+    background-color: #57019d;
+    color: white;
+    border: 1px solid white
+}
+
+.box {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    border: 1px solid rgb(127, 92, 110);
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.oculto {
+    display: block;
+}
